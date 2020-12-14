@@ -1,7 +1,11 @@
 body {
-    background: red;
     margin: 0;
+    background-image: url('nathan-dumlao-6VhPY27jdps-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 .topNav{
     overflow: hidden;
@@ -36,3 +40,31 @@ body {
     font-size: 17px;
 }
 
+.wrapper {
+    text-align: left;
+}
+
+.button {
+    color: white;
+    background-color: royalblue;
+    display: inline-block;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.button:hover{
+    background-color: steelblue;
+}
+
+.button:active{
+    background-color: #474e5d;
+}
+
+.text{
+    color: white;
+    width: 300px;
+    word-break: keep-all;
+    text-align: center;
+    margin-left: 10%;
+}
