@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .topNav{
     overflow: hidden;
     background-color: #333;
@@ -23,11 +27,36 @@
     color: white;
 }
 
-.topNav input{
+
+
+.wrapper {
+    text-align: -moz-center;
+
+}
+
+.button {
+    color: white;
+    background-color: royalblue;
+    display: inline-block;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+
+}
+
+.button:hover{
+    background-color: steelblue;
+}
+
+.button:active{
+    background-color: #474e5d;
+}
+
+#search {
+    display: block;
     float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
+}
+
+img{
+    max-height: 360px;
 }
