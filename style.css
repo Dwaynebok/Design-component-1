@@ -1,3 +1,6 @@
+/*
+Homepage Css
+ */
 body {
     margin: 0;
     background-image: url('nathan-dumlao-6VhPY27jdps-unsplash.jpg');
@@ -31,7 +34,6 @@ body {
 }
 
 .topNav a:active{
-    background-color: #4CAF50;
     color: white;
 }
 
@@ -90,7 +92,7 @@ body {
 }
 
 /*
-aboutUs
+aboutUs Css
  */
 
 .bodyAboutUs{
@@ -176,3 +178,96 @@ image{
 .buttonABout:hover {
     background-color: #555;
 }
+
+/*
+contactUs css
+ */
+
+.secondaryBg{
+    margin: 0;
+    background-image: url('clem-onojeghuo-9AEh9i-WPhI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+select, textarea{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.buttonContact{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+}
+
+.buttonContact:hover{
+    background-color: steelblue;
+}
+
+label{
+    color: white;
+}
+
+.containerForm{
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#move{
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+
+.buttonShape{
+    width:20%;
+    height:20%;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, .buttonContact {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.col-25{
+    float: left;
+
+    width: 10%;
+    margin-top: 6px;
+}
+
+.col-75{
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+.rowForm:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+Product Css
+ */
+
+.projectBody{
+    margin: 0;
+    background-image: url('coffee/banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+

@@ -13,3 +13,6 @@ $(document).ready(function() {
 
 });
 
+<!--buttons-->
+
+document.getElementsByClassName('button')
