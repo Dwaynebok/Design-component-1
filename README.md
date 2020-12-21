@@ -13,3 +13,7 @@ Make sure to finish as soon as i can
 
 ### link
 In here will be the link when clicked on will be redirected to the page created
+
+
+link to the project 
+https://dwaynebok.github.io/Design-component-1/
