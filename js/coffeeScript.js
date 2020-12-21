@@ -20,6 +20,9 @@ let  countryList = [ 'Germany', 'Switzerland','Netherlands','France','Belgium','
 for (let i=0;i<countryList.length;i++){
     console.log(countryList[i]);
 }
+
+
+
 /*
 countryList.forEach(function(item, index, array) {
     console.log(item, index)
